@@ -61,12 +61,20 @@ body {
     color: white;
 }
 
-.text-black {
+/* .text-black {
     color: #000 !important;
+} */
+
+.text-blue {
+    color: #007BFF !important;
 }
 
-.border-black {
+/* .border-black {
     border: 1px solid black !important;
+} */
+
+.border-blue {
+    border: 1px solid #007BFF !important;
 }
 
 .bg-black {
