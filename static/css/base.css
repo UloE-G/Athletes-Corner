@@ -77,8 +77,12 @@ body {
     border: 1px solid #007BFF !important;
 }
 
-.bg-black {
+/* .bg-black {
     background: #000 !important;
+} */
+
+.bg-blue {
+    background: #007BFF !important;
 }
 
 .overlay {
