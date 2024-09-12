@@ -63,9 +63,25 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    form = ReviewForm()
+
+    if request.user.is_authenticated:
+        if request.method == "POST":
+            review_form = ReviewForm(data=request.POST)
+            if review_form.is_valid():
+                review = review_form.save(commit=False)
+                review.product = product
+                review.user = request.user
+                review.save()
+                messages.success( request, 'Review submitted')
+                return redirect(reverse('product_detail', args=[product.id]))
+            else:
+                messages.error(
+                    request, 'Failed to add your review')
 
     context = {
         'product': product,
+        'form': form,
     }
 
     return render(request, 'products/product_detail.html', context)

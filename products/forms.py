@@ -25,4 +25,5 @@ class ReviewForm(forms.ModelForm):
 
     class Meta:
         model = Review
-        exclude = ('product', 'user', 'date_added')
+        fields  = ('title', 'rating', 'content')
+        

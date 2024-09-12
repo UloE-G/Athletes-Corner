@@ -85,6 +85,10 @@ body {
     background: #007BFF !important;
 }
 
+.bg-blue:hover {
+    background: #012b57 !important;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
