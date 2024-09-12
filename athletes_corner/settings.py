@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-x)mxk1e9cou06^vgfx=)!q-_rw5&7#h$3@c#9-%!ai0r*4j@rf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-uloeg-athletescorner-connjhcerlp.ws.codeinstitute-ide.net' ]
+ALLOWED_HOSTS = ['8000-uloeg-athletescorner-01sxzp7l6rm.ws.codeinstitute-ide.net']
 
 
 # Application definition
