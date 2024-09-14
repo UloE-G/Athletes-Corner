@@ -97,6 +97,14 @@ body {
     background: #055d30 !important;
 }
 
+.bg-red {
+    background: #ed0303 !important;
+}
+
+.bg-red:hover {
+    background: #960303 !important;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
