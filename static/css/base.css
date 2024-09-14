@@ -89,6 +89,14 @@ body {
     background: #012b57 !important;
 }
 
+.bg-green {
+    background: #02a942 !important;
+}
+
+.bg-green:hover {
+    background: #055d30 !important;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
