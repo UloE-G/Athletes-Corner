@@ -297,6 +297,14 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/* Contact Form */
+#contact-form {
+    width: 50%; /* Set the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    top: 50%; /* Center the form vertically */
+    left: 50%;
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
