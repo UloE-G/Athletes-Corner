@@ -15,7 +15,7 @@ class Return(models.Model):
                                blank=True, null=True,
                                default='Wrong color')
     other = models.TextField(blank=True, 
-                               null=True)
+                             null=True)
 
     def __str__(self):
         return self.order_number
