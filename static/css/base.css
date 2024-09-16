@@ -297,6 +297,10 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+.fa-heart:hover {
+    color: #007BFF;
+}
+
 /* Contact Form */
 #contact-form {
     width: 50%; /* Set the width of the form */
