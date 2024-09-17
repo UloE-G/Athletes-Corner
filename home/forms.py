@@ -5,3 +5,4 @@ class NewsletterForm(forms.ModelForm):
     class Meta:
         model = Newsletter
         fields = ('email',)
+        
