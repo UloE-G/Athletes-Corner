@@ -4,7 +4,7 @@ from .models import Newsletter
 # Register your models here.
 class NewsletterAdmin(admin.ModelAdmin):
     list_display = (
-        'email'
+        'email',
     )
 
 admin.site.register(Newsletter, NewsletterAdmin)
