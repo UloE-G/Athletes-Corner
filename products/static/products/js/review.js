@@ -20,7 +20,7 @@ console.log("IN STATIC JS")
 * - Fetches the content of the corresponding comment.
 * - Populates the `reviewRating`, `reviewText`, and `reviewTitle` input/textarea with the comment's content for editing.
 * - Updates the submit button's text to "Update".
-* - Sets the form's action attribute to the `review_edit/{reviewId}` endpoint.
+* - Sets the form's action attribute to the `/products/review_edit/{reviewId}` endpoint.
 */
 for (let button of editButtons) {
   button.addEventListener("click", (e) => {
