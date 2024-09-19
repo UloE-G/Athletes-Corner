@@ -15,3 +15,27 @@ I wanted first time visitos to be able to:
 - Easily find where to go for each product.
  
 - Easily be able to search for products.
+
+### Frequent Visitors
+
+I  wanted Frequent visitos to be able to:
+
+- Create an account.
+
+- Save details like delivery information and order history.
+
+- Review products.
+
+### Site Admin
+
+I wanted site admins to be able to:
+
+- Add, edit or delete products to the store using site owner only front end page.
+
+
+## Design
+
+### Wireframes
+
+### Colour Scheme
+
