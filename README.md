@@ -37,5 +37,10 @@ I wanted site admins to be able to:
 
 ### Wireframes
 
-### Colour Scheme
+### Color Scheme
 
+![Color Scheme](media/bgcolor.png)
+
+- I went with this colour scheme because the color blue is usally associated with sports and I used white to help contrast between the blue, black, and grey text that will be seen throughtout the website. 
+
+- I only chose two colors because whilst researching mutiple sports websites like Footlocker, JD sports, and the Nike website a maximum of 3 different colors were present at each time.
