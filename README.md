@@ -30,7 +30,7 @@ I  wanted Frequent visitos to be able to:
 
 I wanted site admins to be able to:
 
-- Add, edit or delete products to the store using site owner only front end page.
+- Add, edit or delete products or reviews from the store using site owner only front end page.
 
 
 ## Design
