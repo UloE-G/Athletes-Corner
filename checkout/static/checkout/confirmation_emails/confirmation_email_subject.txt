@@ -1,1 +1,1 @@
-Boutique Ado Confirmation for Order Number {{ order.order_number }}
+Athlete Corner Confirmation for Order Number {{ order.order_number }}

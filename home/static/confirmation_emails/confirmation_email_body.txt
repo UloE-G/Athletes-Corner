@@ -1,0 +1,28 @@
+Dear {{ newsletter.email }}!,
+
+Thank you for signing up for the Athlete's Corner newsletter! 
+We’re thrilled to have you join our community of athletes, fitness enthusiasts, and sports lovers. 
+As a special thank you, here’s a 15% discount code for your first purchase!
+
+Your Exclusive Code: WELCOME15
+
+Use this code at checkout to enjoy your discount. 
+Whether you're looking for the latest sports gear, performance apparel, or fitness accessories, we’ve got you covered.
+
+What to expect as a subscriber:
+
+Exclusive discounts and offers
+Early access to new product launches
+Expert tips and advice for your training
+Invitations to special events and promotions
+Shop Now: [Link to Website]
+
+We can’t wait to help you gear up for your next challenge. 
+If you have any questions or need assistance, feel free to reach out to our customer support team at [support@athletescorner.com].
+
+Thanks again for joining the Athlete's Corner family!
+
+Best regards,
+The Athlete's Corner Team
+
+P.S. Don’t forget to follow us on social media for even more fitness inspiration and updates!
