@@ -277,7 +277,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: #007BFF;
     border-radius: 0;
 }
 
@@ -301,8 +301,8 @@ input[name='q']::placeholder {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #007BFF;
+    border: 1px solid #007BFF;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
