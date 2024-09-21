@@ -28,7 +28,6 @@ body {
 }
 
 .shop-now-button {
-    background: black;
     color: white;
     min-width: 260px;
 }
@@ -38,11 +37,23 @@ body {
     color: white;
 }
 
+.btn-blue {
+    background: #007BFF;
+    color: white;
+}
+
 .btn-outline-black {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
+
+.btn-outline-blue {
+    background: white;
+    color: #012b57 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #012b57;
+}
+
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
@@ -58,6 +69,16 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
+    color: white;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus {
+    background: #012b57;
     color: white;
 }
 
