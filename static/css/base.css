@@ -54,6 +54,13 @@ body {
     border: 1px solid #012b57;
 }
 
+.btn-outline-blue:hover,
+.btn-outline-blue:active,
+.btn-outline-blue:focus {
+    background: #007BFF;
+    color: white !important;
+}
+
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
