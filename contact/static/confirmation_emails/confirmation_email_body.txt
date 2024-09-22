@@ -5,7 +5,7 @@ We have received your return request for order {{ return.order_number }} and wan
 
 Return Details:
 
-Reason for Return: {{ return.reasons }} {{ return.other }}
+Reason for Return: {{ return.reasons }} : {{ return.other }}
 Please allow 5-7 business days for the refund to reflect in your account, depending on your bank or payment provider. 
 
 If you have any further questions or concerns, feel free to contact our customer support team. We’re always happy to assist you.
