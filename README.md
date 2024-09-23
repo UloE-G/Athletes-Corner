@@ -37,6 +37,18 @@ I wanted site admins to be able to:
 
 ### Wireframes
 
+- **Home Page**
+![Home Page Wireframe](media/homepage.png)
+
+- **Products Page**
+![Product Page Wireframe](media/productspage.png)
+
+- **Product Details Page**
+![Product Details Page Wireframe](media/productdetailspage.png)
+
+- **Returns Page**
+![Returns Page Wireframe](media/returnspage.png)
+
 ### Color Scheme
 
 ![Color Scheme](media/bgcolor.png)
