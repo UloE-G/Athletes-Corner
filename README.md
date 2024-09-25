@@ -60,3 +60,35 @@ I wanted site admins to be able to:
 ### Database Design
 
 ![ERD Diagram](media/erd.png)
+
+## Features
+
+This section goes over the different parts of this project. An explaination will be given of what the features provides the user.
+
+### Existing Features
+
+- **Top Page**
+
+    - This will be shown on every page the user goes on.
+
+    - It contains a link to bring the user back to the home page(the store name).
+
+    - It contains a search bar to give the user a more tailored item finding tool.
+
+    - It contains a my account dropdown list which contains the link to their account page and the ability to sign in, sign out, or register.
+
+    - It also contains the checkout button for when a user finished browsing the catelog and want to pay for their oruder they can click that and get sent to the checkout section
+
+![Top Page](media/toppage.png)
+
+- **Nav Bar**
+
+    - This will be shown on every page the user goes on.
+
+    - The navbar contains the links to view all the products, a single product group (Basketball, Football, and Rugby), and specific types or products in these groups (shoes, jerseys, and gear).
+
+    - It also contains a link to a returns section if you feel like you have to return items
+
+    - Below the nav bar there is a message incentivising users to spend above $150 for free delivery. 
+
+![Nav Bar](media/navabr.png)
