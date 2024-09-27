@@ -67,28 +67,70 @@ This section goes over the different parts of this project. An explaination will
 
 ### Existing Features
 
-- **Top Page**
+**Top Page**
 
-    - This will be shown on every page the user goes on.
+- This will be shown on every page the user goes on.
 
-    - It contains a link to bring the user back to the home page(the store name).
+- It contains a link to bring the user back to the home page(the store name).
 
-    - It contains a search bar to give the user a more tailored item finding tool.
+- It contains a search bar to give the user a more tailored item finding tool.
 
-    - It contains a my account dropdown list which contains the link to their account page and the ability to sign in, sign out, or register.
+- It contains a my account dropdown list which contains the link to their account page and the ability to sign in, sign out, or register.
 
-    - It also contains the checkout button for when a user finished browsing the catelog and want to pay for their oruder they can click that and get sent to the checkout section
+- It also contains the checkout button for when a user finished browsing the catelog and want to pay for their oruder they can click that and get sent to the checkout section
 
 ![Top Page](media/toppage.png)
 
-- **Nav Bar**
+**Nav Bar**
 
-    - This will be shown on every page the user goes on.
+- This will be shown on every page the user goes on.
 
-    - The navbar contains the links to view all the products, a single product group (Basketball, Football, and Rugby), and specific types or products in these groups (shoes, jerseys, and gear).
+- The navbar contains the links to view all the products, a single product group (Basketball, Football, and Rugby), and specific types or products in these groups (shoes, jerseys, and gear).
 
-    - It also contains a link to a returns section if you feel like you have to return items
+- It also contains a link to a returns section if you feel like you have to return items
 
-    - Below the nav bar there is a message incentivising users to spend above $150 for free delivery. 
+- Below the nav bar there is a message incentivising users to spend above $150 for free delivery. 
 
 ![Nav Bar](media/navabr.png)
+
+**Profile Page**
+
+- This page shows the users order history and allows them to change their delivery details.
+
+- This helps the user as it gives them easy access to find past orders and gives them the ability to quickly check out as their details will automatically be enter in the delivery field when they checkout.
+
+![Profile Page](media/profilepage.png)
+
+**Sign Out Page**
+
+- This page allows user to remove thier accounts from any device.
+
+- This helps the user as they can remove peoples ability to access their personal information if they use it on shared devices.
+
+![Sign Out Page](media/signout.png)
+
+**Sign In Page**
+
+- This page allows user to enter into thier accounts from any device.
+
+- This helps the user as they have ability to access their personal information if they use it on any device.
+
+![Sign In Page](media/signinpage.png)
+
+**Sign Up Page**
+
+- This page allows the user to create an account for the website.
+
+- The creation of this account is what allows the user to save their delivery information, see past order history and create reviews.
+
+![Sign Up Page](media/signuppage.png)
+
+**Returns Page**
+
+- This page allows user to make a returns item request.
+
+- This helps user give us a good outlook on why they want to return their order.
+
+- It also gives them a quick and easy way to find out how to return their order.
+
+![Returns Page](media/returns.png)
