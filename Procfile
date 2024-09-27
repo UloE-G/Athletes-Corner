@@ -1,0 +1,1 @@
+web: gunicorn athletes_corner.wsgi.application

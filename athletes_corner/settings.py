@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
 
 # Connect env.py file if it is present
 if os.path.isfile("env.py"):
@@ -30,7 +31,8 @@ SECRET_KEY = 'django-insecure-x)mxk1e9cou06^vgfx=)!q-_rw5&7#h$3@c#9-%!ai0r*4j@rf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-uloeg-athletescorner-01sxzp7l6rm.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-uloeg-athletescorner-01sxzp7l6rm.ws.codeinstitute-ide.net',
+                 'athletes-corneru.herokuapp.com']
 
 
 # Application definition
@@ -125,13 +127,17 @@ WSGI_APPLICATION = 'athletes_corner.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
-
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
