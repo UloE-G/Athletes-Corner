@@ -1,1 +1,1 @@
-web: gunicorn athletes_corner.wsgi.application
+web: gunicorn athletes_corner.wsgi:application
