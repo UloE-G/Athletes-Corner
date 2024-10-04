@@ -136,3 +136,70 @@ This section goes over the different parts of this project. An explaination will
 - It also gives them a quick and easy way to find out how to return their order.
 
 ![Returns Page](media/returns.png)
+
+## Technologies Used
+
+This project used a varitey of coding languages, tools, librares and frameworks to build, style and run the app.
+
+### Languages Used
+
+- Python
+
+- Javascript
+
+- CSS
+
+- HTML
+
+### Libraries & Frameworks
+
+- Asgiref 3.8.1
+- Boto3 1.35.29
+- Botocore 1.35.29
+- Dj-database-url 0.5.0
+- Django 3.2.25
+- Django-allaut 0.50.0
+- Django-countrie 7.2.1
+- Django-crispy-form 1.14.0
+- Django-extension 3.2.3
+- Django-storage 1.14.4
+- Gunicor 23.0.0
+- Jmespat 1.0.1
+- Oauthli 3.2.2
+- Pillo 10.4.0
+- Psycopg 2.9.9
+- PyJW 2.9.0
+- Python3-openi 3.2.0
+- Pytz 2024.1
+- Requests-oauthlib 2.0.0
+- S3transfer 0.10.2
+- Sqlparse 0.5.1
+- Stripe 10.10.0
+
+### Tools
+
+- Github
+- Gitpod
+- W3C HTML Validator
+- W3C CSS Validator
+- JSHint
+- Font Awsome
+- Looka
+
+## Credits
+
+**Layout**
+
+- The layout was taken from the Code Institute project [Boutique-Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/933797d5e14d6c3f072df31adf0ca6f938d02218).
+
+**Reviews Form**
+
+- The Review section layout was taken from the code institute [i think therefore i blog](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum).
+
+**Logo**
+
+- The logo was created using [Looka](https://looka.com/logo-maker/?gad_source=1&gclid=CjwKCAjwko21BhAPEiwAwfaQCBaSXuNOSQH7pCUHNiMb9HN7ELRIqC5eUdh3_e5hNUJSRkRM4QMiYhoC4acQAvD_BwE).
+
+**Icons**
+
+- The icons used throughout the app (My account button, Checkout button etc) was made using [Font Awsome](https://fontawesome.com/).
