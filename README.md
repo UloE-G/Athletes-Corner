@@ -51,6 +51,21 @@ I wanted site admins to be able to:
 - **Returns Page**
 ![Returns Page Wireframe](media/returnspage.png)
 
+- **Sign In Page**
+![Sign In Wireframe](media/signinwire.png)
+
+- **Sign Out Page**
+![Sign Out Wireframe](media/signoutwire.png)
+
+- **Profile Page**
+![My Profole Wireframe](media/profilewire.png)
+
+- **Product Management Page**
+![Product Management Wireframe](media/productmanwire.png)
+
+- **Checkout Page**
+![Checkout Wireframe](media/checkoutwire.png)
+
 ### Color Scheme
 
 ![Color Scheme](media/bgcolor.png)
