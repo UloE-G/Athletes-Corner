@@ -63,6 +63,9 @@ I wanted site admins to be able to:
 - **Product Management Page**
 ![Product Management Wireframe](media/productmanwire.png)
 
+- **Bag Page**
+![Bag Wireframe](media/bagwire.png)
+
 - **Checkout Page**
 ![Checkout Wireframe](media/checkoutwire.png)
 
@@ -151,6 +154,16 @@ This section goes over the different parts of this project. An explaination will
 - It also gives them a quick and easy way to find out how to return their order.
 
 ![Returns Page](media/returns.png)
+
+**Checkout Success Page**
+
+- This page is used as a success page to show that the order has gone through.
+
+-  It also give users a confirmation of their order number, date, details and address that will be put into the system.
+
+- The user is also shown which email address it will be sent  to.
+
+![Checkout Success Page](media/csuccess.png)
 
 ## Technologies Used
 

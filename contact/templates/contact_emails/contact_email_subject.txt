@@ -1,1 +1,0 @@
-Athlete Corner Confirmation for Retrun of Order Number {{ return.order_number }}
