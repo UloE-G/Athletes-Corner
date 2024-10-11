@@ -69,6 +69,9 @@ I wanted site admins to be able to:
 - **Checkout Page**
 ![Checkout Wireframe](media/checkoutwire.png)
 
+- **Checkout Success Page**
+![Checkout Success Wireframe](media/csuccesswire.png)
+
 ### Color Scheme
 
 ![Color Scheme](media/bgcolor.png)
