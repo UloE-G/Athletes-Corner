@@ -116,6 +116,31 @@ This section goes over the different parts of this project. An explaination will
 
 ![Nav Bar](media/navabr.png)
 
+**Notifactions**
+
+- When user do specific things like checkout, add products to bags, submit a return application, sign up to the newsletter, leave a review or edit products a notification comes up.
+
+- This is used to give users confirmation throughout the site to not leave them questioning if they have done what they expected to do.
+
+- There are 4 types of notifications, error, info, success, warning.
+
+- The info is used to give users a message usually when they are doing something like editing a product.
+
+- It will display an "Alert!" message above the text.
+![Info Notification](media/info.png)
+
+- The error message is shown when something is unable to properly work like a failed review edit.
+
+- It will display an "Error!" message above the text.
+![Error Notification](media/error.png)
+
+- The success message is shown when a objective a user wants to do works e.g. signing up to the newsletter, checkout or submitting a review
+
+- It will display an "Success!" message above the text.
+![Success](media/success.png)
+
+- The warning message is only used if the stripe public key is missing.
+
 **Profile Page**
 
 - This page shows the users order history and allows them to change their delivery details.
@@ -123,6 +148,16 @@ This section goes over the different parts of this project. An explaination will
 - This helps the user as it gives them easy access to find past orders and gives them the ability to quickly check out as their details will automatically be enter in the delivery field when they checkout.
 
 ![Profile Page](media/profilepage.png)
+
+**Product Management Page**
+
+- This page is where users with staff status can add or edit products.
+
+- The user can describe what category, name, price and rating the product has. 
+
+- This is to give users with staff status a quicker and more efficent way of adding and editing products in the online store instead of going into the admin page.
+
+![Product Mangement Page](media/prodmanpage.png)
 
 **Sign Out Page**
 
@@ -157,6 +192,28 @@ This section goes over the different parts of this project. An explaination will
 - It also gives them a quick and easy way to find out how to return their order.
 
 ![Returns Page](media/returns.png)
+
+**Bag Page**
+
+- This page is for users to look over the products that they want to purchase.
+
+- It shows them the name, price, quantity and subtotal.
+
+- It also give them the ability to change the product quantity amount or remove the product from the bag.
+
+- It can also show the user how close they are to getting free delivery if they have not hit the threshold yet.
+
+![Bag Page](media/bagpage.png)
+
+**Checkout Page**
+
+- This is the last page of the website before a user makes their order.
+
+- It allows them to see their order items one more time.
+
+- It is where the user would put their order details like name, address, email and country they reside in.
+
+![Checkout Page](media/checkoutpage.png)
 
 **Checkout Success Page**
 
