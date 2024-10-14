@@ -127,16 +127,19 @@ This section goes over the different parts of this project. An explaination will
 - The info is used to give users a message usually when they are doing something like editing a product.
 
 - It will display an "Alert!" message above the text.
+
 ![Info Notification](media/info.png)
 
 - The error message is shown when something is unable to properly work like a failed review edit.
 
 - It will display an "Error!" message above the text.
+
 ![Error Notification](media/error.png)
 
 - The success message is shown when a objective a user wants to do works e.g. signing up to the newsletter, checkout or submitting a review
 
 - It will display an "Success!" message above the text.
+
 ![Success](media/success.png)
 
 - The warning message is only used if the stripe public key is missing.
