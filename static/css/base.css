@@ -407,8 +407,3 @@ input[name='q']::placeholder {
 .fa-facebook {
     font-size: 1.25em;
 }
-
-/* 404 Page */
-.unavailable {
-    background-image: url(/media/unavalible.png);
-}
