@@ -38,7 +38,7 @@ body {
 }
 
 .btn-blue {
-    background: #007BFF;
+    background: #004794;
     color: white;
 }
 
@@ -57,7 +57,7 @@ body {
 .btn-outline-blue:hover,
 .btn-outline-blue:active,
 .btn-outline-blue:focus {
-    background: #007BFF;
+    background: #004794;
     color: white !important;
 }
 
@@ -94,7 +94,7 @@ body {
 } */
 
 .text-blue {
-    color: #007BFF !important;
+    color: #004794 !important;
 }
 
 /* .border-black {
@@ -102,7 +102,7 @@ body {
 } */
 
 .border-blue {
-    border: 1px solid #007BFF !important;
+    border: 1px solid #004794 !important;
 }
 
 /* .bg-black {
@@ -110,11 +110,11 @@ body {
 } */
 
 .bg-blue {
-    background: #007BFF !important;
+    background: #004794 !important;
 }
 
 .bg-blues {
-    background: #007BFF !important;
+    background: #004794 !important;
 }
 
 .bg-blue:hover {
