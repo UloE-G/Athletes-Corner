@@ -228,6 +228,18 @@ This section goes over the different parts of this project. An explaination will
 
 ![Checkout Success Page](media/csuccess.png)
 
+### Future Features
+
+- Wishlist was a feature that I thought of putting on my website but due to prioites other features where added instead.
+
+- Discount codes was also another feature I thought of putting on but aswell but chose to keep it close to the MVP.
+
+- I thought about sending emails for Newsletters and Returns but just like discounts, I chose to keep this close to the MVP.
+
+## Testing
+
+Testing can me found on the [TESTING.md](TESTING.md)
+
 ## Technologies Used
 
 This project used a varitey of coding languages, tools, librares and frameworks to build, style and run the app.
