@@ -32,21 +32,21 @@ body {
     min-width: 260px;
 }
 
-.btn-black {
+/* .btn-black {
     background: black;
     color: white;
-}
+} */
 
 .btn-blue {
     background: #004794;
     color: white;
 }
 
-.btn-outline-black {
+/* .btn-outline-black { 
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
-}
+    /* border: 1px solid black; */
+/* } */
 
 .btn-outline-blue {
     background: white;
@@ -62,19 +62,19 @@ body {
 }
 
 
-.btn-outline-black:hover,
+/* .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
     color: white !important;
-}
+} */
 
+/* .btn-black:hover,
+.btn-black:active,
+.btn-black:focus { */
 .shop-now-button:hover,
 .shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
+.shop-now-button:focus {
     background: #222;
     color: white;
 }
@@ -89,25 +89,15 @@ body {
     color: white;
 }
 
-/* .text-black {
-    color: #000 !important;
-} */
-
 .text-blue {
     color: #004794 !important;
 }
 
-/* .border-black {
-    border: 1px solid black !important;
-} */
 
 .border-blue {
     border: 1px solid #004794 !important;
 }
 
-/* .bg-black {
-    background: #000 !important;
-} */
 
 .bg-blue {
     background: #004794 !important;
@@ -193,7 +183,7 @@ input[name='q']::placeholder {
     height: 0; 
     border-left: 4px solid transparent;
     border-right: 4px solid transparent; 
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #004794;
     position: absolute;
     top: -10px;
     right: 36px;
