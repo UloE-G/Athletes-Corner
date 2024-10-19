@@ -38,6 +38,7 @@ Back to [README.md](README.md)
 |Message shows product images and total price |Passed|
 |Message shows how close you are to free delivery|Passed|
 |Message loads bag page link|Passed|
+|Quantity can't go below 1|Passed|
 
 **Creating Reviews**
 |What was tested|Result|
@@ -107,3 +108,54 @@ Back to [README.md](README.md)
 |Product error messages checking|Passed|
 |Cancle button takes user back to product page|Passed|
 |Add product adds product to correct category|Passed|
+
+
+### My Profile Page
+|What was tested|Result|
+|---|---|
+|Shows order history (number, item, date and total)|Passed|
+|Order number history links to order confimrmation page|Passed|
+|Order confimrmation page message loads|Passed|
+|Allows user to add in devliver information|Passed|
+
+### Bag Page
+|What was tested|Result|
+|---|---|
+|Show product image|Passed|
+|Show product name|Passed|
+|Show product size|Passed|
+|Show product SKU|Passed|
+|Show Price|Passed|
+|Show subtotal|Passed|
+|Show quantity|Passed|
+|Allow users to update their product quantity|Passed|
+|Allow users to remove their products|Passed|
+|Show user how much they need for a discount (if valid)|Passed|
+|Keep shopping button takes you back to product page|Passed|
+|Secure Checkout takes them to checkout page|Passed|
+
+### Checkout Page
+|What was tested|Result|
+|---|---|
+|Order summary loads (Item, date and total)|Passed|
+|Details section loads|Passed|
+|Details section error handling|Passed|
+|Delivery section loads|Passed|
+|Delivery section error handling|Passed|
+|Stripe payment loads|Passed|
+|Stripe payment error handling|Passed|
+|Adjust bag button takes user back to bag page|Passed|
+|Complete order functional|Passed|
+|Complete order loads a new page if valid|Passed|
+
+**Checkout Success Page**
+|What was tested|Result|
+|---|---|
+|Completed order message|Passed|
+|Continue shopping button loads product page|Passed|
+
+### Error 404 page
+|What was tested|Result|
+|---|---|
+|Page loads when user enters invalid page|Passed|
+|Return to Shop button takes user back to product page|Passed|
