@@ -289,6 +289,102 @@ This project used a varitey of coding languages, tools, librares and frameworks 
 - Font Awsome
 - Looka
 
+## Deployment
+
+Three steps were used when deploying this website:
+
+1. Creating Heroku App. 
+2. Connecting Heroku to Stripe for payment configuration.
+3. Connecting Heroku to Amazon Web Services to store static and media files.
+
+
+**Heroku Deployment**
+
+  1. Create an account on [Heroku](https://dashboard.heroku.com/apps).
+
+  2. In the Heroku Dashboard click create a new app.
+
+  3. Type in the app name (athletes-corneru) and select region (Europe) and click create app.
+
+  4. Once done go to settings and click reveal config vars.
+
+  5. Inside config vars add the word "DATABASE_URL" to key with a value of the database url from the PostgreSQL that was given from Code Institute.
+
+  6. Next add the word "SECRET_KEY" to key with a value of the secret key you name (this key is then removed from the settings.py file).
+
+  7. Connect the Github to the heroku through the deploy section of the page.
+
+  8. Finally activate automatic deploys.
+
+**Stripe**
+
+  1. Create and account on [Stripe](https://stripe.com/ie).
+
+  2. In Heroku go back to settings and reveal config vars then add your Stripe public and secret key.
+
+  3. Create a webhook and select all events.
+
+  4. Then add your heroku URL to the endpoint URL with the addition of /checkout/wh/ (e.g. https://xxxx.com/checkout/wh/)
+
+  5. Go back to Heroku and add the stripe webhook secret key to the config vars.
+
+**Amazon Web Services**
+
+  1. Create an [AWS](https://aws.amazon.com/free/?trk=d5254134-67ca-4a35-91cc-77868c97eedd&sc_channel=ps&ef_id=Cj0KCQjw99e4BhDiARIsAISE7P8GFY3G_vJGdC1mh0Y5sLDqNP6Qx9UtDLRtse2jtjoz-v-U6FHK9RoaAl6wEALw_wcB:G:s&s_kwcid=AL!4422!3!433803620861!e!!g!!amazon%20web%20services!1680401428!67152600204&gclid=Cj0KCQjw99e4BhDiARIsAISE7P8GFY3G_vJGdC1mh0Y5sLDqNP6Qx9UtDLRtse2jtjoz-v-U6FHK9RoaAl6wEALw_wcB) account.
+
+  2. Once created go to the S3 and create a bucket.
+
+  3. Inside the bucket turn on static website hosting.
+
+  4. In the permissions tab add the following to the CORS configuration:
+    
+    [
+      {
+        "AllowedHeaders": [
+        "Authorization"
+        ],
+        "AllowedMethods": [
+        "GET"
+        ],
+        "AllowedOrigins": [
+        "*"
+        ],
+        "ExposeHeaders": []
+      }
+    ]
+
+  5. Then go to the bucket policy generator to create a security policy for this bucket (policy type = S3 bucket policy).
+
+  6. Then generate policy and add policy in the bucket policy editor (adding a /* to the end of resource key).
+
+  7. Go to access control list and put public access to everyone.
+
+  8. Go to IAM section.
+
+  9. Go to groups part
+
+  10. Create a group.
+
+  11. Go to policy part.
+
+  12. Create a policy.
+
+  13. In policy creation, import the S3 Full Access policy.
+
+  14. Add the bucket ARN into the resource section.
+
+  15. Attach policy to group.
+
+  16. Go to user.
+
+  17. Add a user.
+
+  18. Add user to group.
+
+  19. Get the user key and secret access key from a .csv file made when adding the user.
+
+  
+
 ## Credits
 
 **Layout**
