@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /accounts/
+Sitemap: https://athletes-corneru-cb4d865ddf18.herokuapp.com/sitemap.xml
