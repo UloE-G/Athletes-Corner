@@ -322,11 +322,11 @@ Three steps were used when deploying this website:
 
   2. In Heroku go back to settings and reveal config vars then add your Stripe public and secret key.
 
-  3. Create a webhook and select all events.
+  3. Create a webhook endpoint and select all events.
 
   4. Then add your heroku URL to the endpoint URL with the addition of /checkout/wh/ (e.g. https://xxxx.com/checkout/wh/)
 
-  5. Go back to Heroku and add the stripe webhook secret key to the config vars.
+  5. Go back to Heroku and add the stripe webhook endpoint secret key, public key, and secret key to the config vars.
 
 **Amazon Web Services**
 
@@ -383,7 +383,56 @@ Three steps were used when deploying this website:
 
   19. Get the user key and secret access key from a .csv file made when adding the user.
 
+  20. Install boto3 and django-storages in the workspace.
+
+  21. Type the following code into settings.py.
+
+    if 'USE_AWS' in os.environ:
+    # Bucket Config
+    AWS_STORAGE_BUCKET_NAME = ''
+    AWS_S3_REGION_NAME = ''
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
+  22. Add "AWS_SECRET_ACCESS_KEY" and "AWS_SECRET_ACCESS_KEY" to Heroku config vars.
+
+  23. Add "USE_AWS" and set its value to true in the config vars.
+
+  24. Remove "DISABLE_COLLECTSTATIC" from config vars.
+
+  25. Create a file called "custom_storages.py" and put in the following code:
   
+    from django.conf import settings
+    from storages.backends.s3boto3 import S3Boto3Storage
+
+
+    class StaticStorage(S3Boto3Storage):
+        location = settings.STATICFILES_LOCATION
+
+
+    class MediaStorage(S3Boto3Storage):
+        location = settings.MEDIAFILES_LOCATION
+
+  26. Git add and push these changes to heroku.
+
+  27. Go back to AWS S3 for app and create a new folder called media.
+
+  28. Click the media file and upload all images into it.
+
+  29. Grant public read access to these images (under manage public permissions) and upload.
+
+  30. 
 
 ## Credits
 
