@@ -110,7 +110,9 @@ This section goes over the different parts of this project. An explaination will
 
 - The navbar contains the links to view all the products, a single product group (Basketball, Football, and Rugby), and specific types or products in these groups (shoes, jerseys, and gear).
 
-- It also contains a link to a returns section if you feel like you have to return items
+- It also contains a link to a returns section if you feel like you have to return items.
+
+- It has a link to the home page if the user wants to sign up to the newsletter.
 
 - Below the nav bar there is a message incentivising users to spend above $150 for free delivery. 
 
@@ -185,6 +187,49 @@ This section goes over the different parts of this project. An explaination will
 - The creation of this account is what allows the user to save their delivery information, see past order history and create reviews.
 
 ![Sign Up Page](media/signuppage.png)
+
+**Products Page**
+
+- This page shows all the products avalible in the online store.
+
+- It can be specialized to show items in alphabetical order (A-Z or Z-A), price (low-to-high, or high-to-low), and ratings (low-to-high, or high-to-low).
+
+- It can only show items from a particular sport if the sport name was clicked on in the nav bar.
+
+![Product Page](media/productpagee.png)
+
+**Product Details Page**
+
+The product details page had two sections:
+
+*Product Item*
+- The first thing a user see when they click on a item from the products page is a image of the item, name, rating and a description of said item.
+
+- If the item is shoes a form comes whith shoes sizes ranging from a uk size 9 to a uk 13.
+
+- If the item is clothes a form comes whith shoes sizes ranging from a uk size 9 to a uk 13.
+
+- A quantity bar is also their if the user wants to add more than 1 item to their bag.
+
+- Their button to go back to the product page or add the item into the bag.
+
+- For users with staff access to button appear beside the ratings which allows them to edit or delete the product.
+
+- Clicking edit brings them to that product management page for the item.
+
+- Clicking delete instantly removes the item from the store.
+
+![Product Detail Section](media/productdetailpaage.png)
+
+*Product Review*
+
+- Under the product item their is a review section.
+
+- This allows user to give their opinions on a product for other user to see.
+
+- Users can edit and delete their reviews.
+
+![Reveiw Section](media/reviewsection.png)
 
 **Returns Page**
 
