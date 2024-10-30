@@ -391,6 +391,12 @@ input[name='q']::placeholder {
     left: 50%;
 }
 
+/* Home Page */
+
+.lightblue{
+    background: rgb(99, 149, 236, 0.6);
+}
+
 /* Footer */
 .fa-facebook {
     font-size: 1.25em;
