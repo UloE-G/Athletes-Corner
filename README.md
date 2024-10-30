@@ -2,7 +2,7 @@
 
 Athletes Corner is a sports e-commerce created for people who are looking for sports gear, jerseys or shoes for basketball, football, and rugby. This website aims to give users a quick and easy way to search for sporting goods and see if they are worth buying.
 
-![Athletes Corner Mockup]()
+![Athletes Corner Mockup](media/mockup.png)
 
 [View live website here](https://athletes-corneru-cb4d865ddf18.herokuapp.com/)
 
@@ -369,9 +369,9 @@ Three steps were used when deploying this website:
 
   3. Create a webhook endpoint and select all events.
 
-  4. Then add your heroku URL to the endpoint URL with the addition of /checkout/wh/ (e.g. https://xxxx.com/checkout/wh/)
+  4. Then add your heroku URL to the endpoint URL with the addition of /checkout/wh/ (e.g. https://xxxx.com/checkout/wh/).
 
-  5. Go back to Heroku and add the stripe webhook endpoint secret key, public key, and secret key to the config vars.
+  5. Go back to Heroku and add the stripe webhook endpoint secret key to the config vars.
 
 **Amazon Web Services**
 
