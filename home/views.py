@@ -6,6 +6,7 @@ from .forms import NewsletterForm
 
 # Create your views here.
 
+
 def index(request):
     """ A view to return the index page """
 
@@ -15,12 +16,14 @@ def index(request):
         if letter_form.is_valid():
             print("Valid request")
             letter_form.save()
-            messages.success(request, 
-                             "Thank you :) Please check email for an exclusive welcome discount!!!")
+            messages.success(request,
+                             'Thank you :) Please check email for \
+                             an exclusive welcome discount!!!')
         else:
-            messages.error(request, 
-                           'Request failed, please make sure email was typed in correctly')
-    
+            messages.error(request,
+                           'Request failed, please make sure \
+                           email was typed in correctly')
+
     letter_form = NewsletterForm()
     letter = Newsletter
 
@@ -30,4 +33,3 @@ def index(request):
     }
 
     return render(request, 'home/index.html', context)
-    
