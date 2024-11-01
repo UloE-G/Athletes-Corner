@@ -10,6 +10,7 @@ from .forms import ProductForm, ReviewForm
 
 # Create your views here.
 
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -33,7 +34,7 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
-            
+
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
@@ -42,10 +43,12 @@ def all_products(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(request,
+                               "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+
+            queries = Q(
+                name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -61,7 +64,7 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ 
+    """
     A view to show individual product details
     and allow users to create reviews of the product
     """
@@ -104,10 +107,12 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to add product. \
+                Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -133,7 +138,8 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update product. \
+                           Please ensure the form is valid.')
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -166,7 +172,7 @@ def edit_review(request, review_id):
     view to edit reviews
     """
     if request.method == "POST":
-        review = get_object_or_404(Review, pk=review_id) 
+        review = get_object_or_404(Review, pk=review_id)
         product = review.product
         review_form = ReviewForm(data=request.POST, instance=review)
         if review_form.is_valid() and review.user == request.user:
@@ -189,7 +195,7 @@ def delete_review(request, review_id):
 
     if review.user == request.user:
         review.delete()
-        messages.success(request,'review deleted!')
+        messages.success(request, 'review deleted!')
     else:
         messages.error(request, 'You can only delete your own review!')
 
