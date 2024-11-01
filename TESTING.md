@@ -159,3 +159,135 @@ Back to [README.md](README.md)
 |---|---|
 |Page loads when user enters invalid page|Passed|
 |Return to Shop button takes user back to product page|Passed|
+
+## Bugs
+
+### Fixed Bugs
+
+**Review Editing/Deletion**
+
+- Whenever a user tried to delete or confirm edits to their review an error would come up stating that the url for the editing and deletion was not found.
+
+- The problem came from the review.js file in the products folder.
+
+- In the file the links to the urls in the urls.py file was incorrectly type so to solve it the correct url structure was made.
+
+**Confirmation Emails**
+
+- Another problem that presented itself was when a user has completed their order a no confirmation email was sent out.
+
+- The problem came from the fact that the website was that the location of the confirmation email was in the wrong folder so to solve it the folder was moved to the correct one.
+
+## Validation
+
+### HTML
+
+HTML was verified through the [W3C Markup Validation Service](https://validator.w3.org/)
+
+|HTML Page|Result|
+|---|---|
+|Home Page|No Errors, 1 Warning|
+|Products Page|No Errors, 3 Warnings|
+|Products Detail Page|No Errors, 2 Warnings|
+|Bag Page|No Errors, 4 Warnings|
+|Checkout Page|No Errors, 3 Warnings|
+|Checkout Success Page|No Errors, 1 Warnings|
+|Returns Page|No Errors, 1 Warning|
+|Register Page|No Errors, 1 Warning|
+|Sign Up Page|No Errors, 1 Warning|
+|Logout Page|No Errors, 1 Warning|
+|Password Reset Page|No Errors, 1 Warning|
+|Password Reset Done Page|No Errors, 1 Warning|
+|Add Product Page|No Errors, 1 Warning, 1 Info|
+|My Profile Page|No Errors, 1 Warning, 1 Info|
+
+In total their was:
+
+- 0 Errors
+
+- 22 Warnings
+
+- 2 Info
+
+### CSS
+
+CSS was verified through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+|CSS File|Result|
+|---|---|
+|base.css|No Errors, 6 Warnings|
+|Checkout.css|No Errors, 0 Warnings|
+
+In total their was:
+
+- 0 Errors
+
+- 6 Warnings
+
+### Javascript
+
+Javascript was verified through [JSHint](https://jshint.com/)
+
+|Js File|Result|
+|---|---|
+|stripe_element.js|3 warnings, 2 undefined variables|
+|review.js|26 warnings, 1 undefined variable|
+
+In total their was;
+
+- 29 Warnings,
+
+- 3 Undefined variables
+
+both js files were obtained through the the Code Institute "boutique-ado" and "i think therefore i blog" walkthroughs so I opted not to modify the variables.
+
+### Python
+
+Python was verified throught the Code Institute [Pyhton Linter](https://pep8ci.herokuapp.com/)
+
+**Profiles Folder**
+
+|Python File|Result|
+|---|---|
+|views.py|Passed|
+|urls.py|Passed|
+|models.py|Passed|
+|forms.py|Passed|
+|apps.py|Passed|
+
+**Products Folder**
+|Python File|Result|
+|---|---|
+|widgets.py|Passed|
+|views.py|Passed|
+|urls.py|Passed|
+|models.py|Passed|
+|forms.py|Passed|
+|apps.py|Passed|
+|admin.py|Passed|
+
+**Home Folder**
+|Python File|Result|
+|---|---|
+|views.py|Passed|
+|urls.py|Passed|
+|models.py|Passed|
+|forms.py|Passed|
+|apps.py|Passed|
+|admin.py|Passed|
+
+**Contact Folder**
+|Python File|Result|
+|---|---|
+|views.py|Passed|
+|urls.py|Passed|
+|models.py|Passed|
+|forms.py|Passed|
+|apps.py|Passed|
+|admin.py|Passed|
+
+**Checkout Folder**
+|Python File|Result|
+|---|---|
+|webhooks.py|Passed|
+|webhook_handler.py|Passed|
