@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Return(models.Model):
     order_number = models.CharField(max_length=254)
@@ -9,13 +10,14 @@ class Return(models.Model):
         ('Order did not fit', 'Order did not fit'),
         ('Order arrived too late', 'Order arrived too late'),
         ('Order was not as described', 'Order was not as described'),
-        ('Other (Please specify down below)', 'Other (Please specify down below)'),
+        ('Other (Please specify down below)',
+         'Other (Please specify down below)'),
     )
-    reasons = models.CharField(max_length=254, choices=reason, 
+    reasons = models.CharField(max_length=254, choices=reason,
                                null=True,
                                default='Wrong color')
-    other = models.TextField(blank=True, 
-                            null=True)
+    other = models.TextField(blank=True,
+                             null=True)
 
     def __str__(self):
         return self.order_number

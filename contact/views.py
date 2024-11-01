@@ -4,6 +4,7 @@ from django.contrib import messages
 from .models import Return
 from .forms import ReturnForm
 
+
 # Create your views here.
 def contact(request):
     """ A view to return the contact page """
@@ -14,7 +15,8 @@ def contact(request):
         if return_form.is_valid():
             print("Valid request")
             return_form.save()
-            messages.success(request, "Message received! We will contact you in the coming days.")
+            messages.success(request, "Message received! We will \
+                             contact you in the coming days.")
         else:
             messages.error(request, 'Message failed, please look over form')
 
@@ -22,7 +24,7 @@ def contact(request):
     returns = Return
 
     template = 'contact/contact.html'
-    context  = {
+    context = {
         'returns': returns,
         "return_form": return_form
     }
