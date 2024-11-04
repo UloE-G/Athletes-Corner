@@ -298,4 +298,25 @@ Python was verified throught the Code Institute [Pyhton Linter](https://pep8ci.h
 |forms.py|Passed|
 |apps.py|Passed|
 |admin.py|Passed|
-|__init__.py|Passed|
+|init.py|Passed|
+
+**Bag Folder**
+|Python File|Result|
+|---|---|
+|views.py|Passed|
+|urls.py|Passed|
+|contexts.py|Passed|
+|apps.py|Passed|
+
+**Athletes Corner Folder**
+|Python File|Result|
+|---|---|
+|wsgi.py|Passed|
+|views.py|Passed|
+|urls.py|Passed|
+|settings.py|1 Error|
+|asgi.py|Passed|
+
+In total their was only 1 Error which was in the settings.py file in the athletes corner folder. 
+
+I did not changed that error as it was their when django was installed.
