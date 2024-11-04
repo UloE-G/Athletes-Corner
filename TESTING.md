@@ -291,3 +291,11 @@ Python was verified throught the Code Institute [Pyhton Linter](https://pep8ci.h
 |---|---|
 |webhooks.py|Passed|
 |webhook_handler.py|Passed|
+|views.py|Passed|
+|urls.py|Passed|
+|signals.py|Passed|
+|models.py|Passed|
+|forms.py|Passed|
+|apps.py|Passed|
+|admin.py|Passed|
+|__init__.py|Passed|
