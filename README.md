@@ -41,27 +41,35 @@ I wanted site admins to be able to:
 
 - **Home Page**
 ![Home Page Wireframe](media/homepage.png)
+![Mobile Home Page Wireframe](media/mobilehome.png)
 
 - **Products Page**
 ![Product Page Wireframe](media/productspage.png)
+![Mobile Product Page Wireframe](media/mobileproduct.png)
 
 - **Product Details Page**
 ![Product Details Page Wireframe](media/productdetailspage.png)
+![Mobile Product Details Page Wireframe](media/mobileproductdet.png)
 
 - **Returns Page**
 ![Returns Page Wireframe](media/returnspage.png)
+![Mobile Returns Page Wireframe](media/mobilereturns.png)
 
 - **Sign In Page**
 ![Sign In Wireframe](media/signinwire.png)
+![Mobile Sign In Wireframe](media/mobilesignup.png)
 
 - **Sign Out Page**
 ![Sign Out Wireframe](media/signoutwire.png)
+![Mobile Sign Out Wireframe](media/mobilesignout.png)
 
 - **Profile Page**
-![My Profole Wireframe](media/profilewire.png)
+![My Profile Wireframe](media/profilewire.png)
+![Mobile My Profile Wireframe](media/mobileprofile.png)
 
 - **Product Management Page**
 ![Product Management Wireframe](media/productmanwire.png)
+![Mobile Product Management Wireframe](media/mobileproductmanage.png)
 
 - **Bag Page**
 ![Bag Wireframe](media/bagwire.png)
