@@ -73,15 +73,16 @@ I wanted site admins to be able to:
 
 - **Bag Page**
 ![Bag Wireframe](media/bagwire.png)
+![Mobile Bag Wireframe](media/mobilebag.png)
 
 - **Checkout Page**
 ![Checkout Wireframe](media/checkoutwire.png)
+![Mobile Checkout Wireframe](media/mobilecheckout.png)
 
 - **Checkout Success Page**
 ![Checkout Success Wireframe](media/csuccesswire.png)
 
 ### Color Scheme
-
 ![Color Scheme](media/bgcolor.png)
 
 - I went with this colour scheme because the color blue is usally associated with sports and I used white to help contrast between the blue, black, and grey text that will be seen throughtout the website. 
