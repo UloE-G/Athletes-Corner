@@ -81,6 +81,11 @@ I wanted site admins to be able to:
 
 - **Checkout Success Page**
 ![Checkout Success Wireframe](media/csuccesswire.png)
+![Mobile Checkout Success Wireframe](media/mobilecheckoutsuccess.png)
+
+- **Error 404 Page**
+![Error Wireframe](media/error404page.png)
+![Mobile Error Wireframe](media/mobileerror.png)
 
 ### Color Scheme
 ![Color Scheme](media/bgcolor.png)
@@ -281,6 +286,14 @@ The product details page had two sections:
 - The user is also shown which email address it will be sent  to.
 
 ![Checkout Success Page](media/csuccess.png)
+
+**Error 404 Page**
+
+- This page comes up when a user enters an invalid url.
+
+- It allows them to make a quick return into the website main pages.
+
+![Error 404 Page](media/error404.png)
 
 ### Future Features
 
