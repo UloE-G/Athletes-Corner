@@ -401,3 +401,7 @@ input[name='q']::placeholder {
 .fa-facebook {
     font-size: 1.25em;
 }
+
+a > p {
+    color: white;
+}
