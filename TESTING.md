@@ -320,3 +320,21 @@ Python was verified throught the Code Institute [Pyhton Linter](https://pep8ci.h
 In total their was only 1 Error which was in the settings.py file in the athletes corner folder. 
 
 I did not changed that error as it was their when django was installed.
+
+## Lighthouse Validation
+
+|Page|Result|
+|---|---|
+|Home|![Home Lighthouse](media/homelighthouse.png)|
+|Products|![Product Lighthouse](media/productlighthouse.png)|
+|Product Detail|![Product Details Lighthouse](media/productdetlighthouse.png)|
+|Returns|![Returns Lighthouse](media/returnslighthouse.png)|
+|Login|![Login Lighthouse](media/loginlighthouse.png)|
+|Sign Up|![Sign Up Lighthouse](media/signuplighthouse.png)|
+|Sign Out|![Sign Out Lighthouse](media/signoutlighthouse.png)|
+|Product Management|![Product Management Lighthouse](media/productmanagelighthouse.png)|
+|My Profile|![My Profile Lighthouse](media/myprofilelighthouse.png)|
+|Bag|![Bag Lighthouse](media/baglighthouse.png)|
+|Checkout|![Checkout Lighthouse](media/checkoutlighthouse.png)|
+|Checkout Success|![Checkout Success Lighthouse](media/chechkoutsuccesslighthouse.png)|
+|Error 404|![Error 404 Lighthouse](media/errorlighthouse.png)|
