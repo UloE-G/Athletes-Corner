@@ -138,7 +138,9 @@ This section goes over the different parts of this project. An explaination will
 
 - This is used to give users confirmation throughout the site to not leave them questioning if they have done what they expected to do.
 
-- There are 4 types of notifications, error, info, success, warning.
+- There are 5 types of notifications, error, info, success, item and warning.
+
+*Info*
 
 - The info is used to give users a message usually when they are doing something like editing a product.
 
@@ -146,17 +148,33 @@ This section goes over the different parts of this project. An explaination will
 
 ![Info Notification](media/info.png)
 
+*Error*
+
 - The error message is shown when something is unable to properly work like a failed review edit.
 
 - It will display an "Error!" message above the text.
 
 ![Error Notification](media/error.png)
 
+*Success*
+
 - The success message is shown when a objective a user wants to do works e.g. signing up to the newsletter, checkout or submitting a review
 
 - It will display an "Success!" message above the text.
 
 ![Success](media/success.png)
+
+*Item*
+
+- When a user adds an item to their bag a success notification will display.
+
+- What also shows is an image of the item with the ability to go to checkout from there.
+
+- It also shows the user how much they need to spend for the discount code to come into effect
+
+![Item Success](media/itemsuccess.png)
+
+*Warning*
 
 - The warning message is only used if the stripe public key is missing.
 
@@ -294,6 +312,14 @@ The product details page had two sections:
 - It allows them to make a quick return into the website main pages.
 
 ![Error 404 Page](media/error404.png)
+
+**Facebook Buisness Page**
+
+- When a user clicks on the facebook icon at the bottom of the home page it takes them to a facebook page.
+
+- This page will be used to promote the website on another app and give them exclusive offers.
+
+![Facebook Page](media/facebookpage.png)
 
 ### Future Features
 
