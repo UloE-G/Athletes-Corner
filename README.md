@@ -525,8 +525,6 @@ Three steps were used when deploying this website:
 
   29. Grant public read access to these images (under manage public permissions) and upload.
 
-  30. 
-
 ## Credits
 
 **Layout**
