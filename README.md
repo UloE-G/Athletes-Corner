@@ -10,7 +10,7 @@ Athletes Corner is a sports e-commerce created for people who are looking for sp
 
 ### First Time Visitors
 
-As a first time visitors I want to be able to:
+As a first time visitor I want to be able to:
 
 - Easily use the site across a wide range of devices.
 
@@ -20,7 +20,7 @@ As a first time visitors I want to be able to:
 
 ### Frequent Visitors
 
-As a Frequent visitors I want to be able to:
+As a Frequent visitor I want to be able to:
 
 - Create an account.
 
@@ -41,50 +41,62 @@ As a  site admin I want to be able to:
 
 - **Home Page**
 ![Home Page Wireframe](media/homepage.png)
+
 ![Mobile Home Page Wireframe](media/mobilehome.png)
 
 - **Products Page**
 ![Product Page Wireframe](media/productspage.png)
+
 ![Mobile Product Page Wireframe](media/mobileproduct.png)
 
 - **Product Details Page**
 ![Product Details Page Wireframe](media/productdetailspage.png)
+
 ![Mobile Product Details Page Wireframe](media/mobileproductdet.png)
 
 - **Returns Page**
 ![Returns Page Wireframe](media/returnspage.png)
+
 ![Mobile Returns Page Wireframe](media/mobilereturns.png)
 
 - **Sign In Page**
 ![Sign In Wireframe](media/signinwire.png)
+
 ![Mobile Sign In Wireframe](media/mobilesignup.png)
 
 - **Sign Out Page**
 ![Sign Out Wireframe](media/signoutwire.png)
+
 ![Mobile Sign Out Wireframe](media/mobilesignout.png)
 
 - **Profile Page**
 ![My Profile Wireframe](media/profilewire.png)
+
 ![Mobile My Profile Wireframe](media/mobileprofile.png)
 
 - **Product Management Page**
 ![Product Management Wireframe](media/productmanwire.png)
+
 ![Mobile Product Management Wireframe](media/mobileproductmanage.png)
 
 - **Bag Page**
 ![Bag Wireframe](media/bagwire.png)
+
 ![Mobile Bag Wireframe](media/mobilebag.png)
 
 - **Checkout Page**
 ![Checkout Wireframe](media/checkoutwire.png)
+
 ![Mobile Checkout Wireframe](media/mobilecheckout.png)
 
 - **Checkout Success Page**
 ![Checkout Success Wireframe](media/csuccesswire.png)
+
 ![Mobile Checkout Success Wireframe](media/mobilecheckoutsuccess.png)
 
 - **Error 404 Page**
 ![Error Wireframe](media/error404page.png)
+
 ![Mobile Error Wireframe](media/mobileerror.png)
 
 ### Color Scheme
@@ -92,7 +104,7 @@ As a  site admin I want to be able to:
 
 - I went with this colour scheme because the color blue is usally associated with sports and I used white to help contrast between the blue, black, and grey text that will be seen throughtout the website. 
 
-- I only chose two colors because whilst researching mutiple sports websites like Footlocker, JD sports, and the Nike website a maximum of 3 different colors were present at each time.
+- I only chose two colors because whilst researching multiple sports websites like Footlocker, JD sports, and the Nike website a maximum of 3 different colors were present at each time.
 
 ### Database Design
 
@@ -114,7 +126,7 @@ This section covers the different parts of this project and explains what the fe
 
 - It contains a My Account dropdown list which contains the link to their account page and the ability to sign in, sign out, or register.
 
-- It also contains the checkout button for when a user finishes browsing the catalog and want to pay for their order they can click that and get sent to the checkout section
+- It also contains the checkout button for when a user finishes browsing the catalog and wants to pay for their order they can click that and get sent to the checkout section
 
 ![Top Page](media/toppage.png)
 
@@ -134,7 +146,7 @@ This section covers the different parts of this project and explains what the fe
 
 **Notifactions**
 
-- When user do specific things like checkout, add products to bags, submit a return application, sign up to the newsletter, leave a review, or edit products a notification comes up.
+- When users do specific things like checkout, add products to bags, submit a return application, sign up to the newsletter, leave a review, or edit products a notification comes up.
 
 - This is used to give users confirmation throughout the site to not leave them questioning if they have done what they expected to do.
 
@@ -158,7 +170,7 @@ This section covers the different parts of this project and explains what the fe
 
 *Success*
 
-- The success message is shown when an objective a user wants to do works e.g. signing up for the newsletter, check out or submitting a review
+- The success message is shown when an objective a user wants to do works e.g. signing up for the newsletter, checking out or submitting a review
 
 - It will display a "Success!" message above the text.
 
@@ -182,7 +194,7 @@ This section covers the different parts of this project and explains what the fe
 
 - This page shows the users' order history and allows them to change their delivery details.
 
-- This helps the user as it gives them easy access to find past orders and gives them the ability to quickly check out as their details will automatically be enter in the delivery field when they checkout.
+- This helps the user as it gives them easy access to find past orders and gives them the ability to quickly check out as their details will automatically be entered in the delivery field when they checkout.
 
 ![Profile Page](media/profilepage.png)
 
