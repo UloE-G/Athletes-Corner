@@ -10,7 +10,7 @@ Athletes Corner is a sports e-commerce created for people who are looking for sp
 
 ### First Time Visitors
 
-I wanted first time visitos to be able to:
+As a first time visitors I want to be able to:
 
 - Easily use the site across a wide range of devices.
 
@@ -20,7 +20,7 @@ I wanted first time visitos to be able to:
 
 ### Frequent Visitors
 
-I  wanted Frequent visitos to be able to:
+As a Frequent visitors I want to be able to:
 
 - Create an account.
 
@@ -30,7 +30,7 @@ I  wanted Frequent visitos to be able to:
 
 ### Site Admin
 
-I wanted site admins to be able to:
+As a  site admin I want to be able to:
 
 - Add, edit or delete products or reviews from the store using site owner only front end page.
 
@@ -100,7 +100,7 @@ I wanted site admins to be able to:
 
 ## Features
 
-This section goes over the different parts of this project. An explaination will be given of what the features provides the user.
+This section covers the different parts of this project and explains what the features provide the user.
 
 ### Existing Features
 
@@ -108,13 +108,13 @@ This section goes over the different parts of this project. An explaination will
 
 - This will be shown on every page the user goes on.
 
-- It contains a link to bring the user back to the home page(the store name).
+- It contains a link to return the user to the home page(the store name).
 
-- It contains a search bar to give the user a more tailored item finding tool.
+- It contains a search bar to give users a more tailored item-finding tool.
 
-- It contains a my account dropdown list which contains the link to their account page and the ability to sign in, sign out, or register.
+- It contains a My Account dropdown list which contains the link to their account page and the ability to sign in, sign out, or register.
 
-- It also contains the checkout button for when a user finished browsing the catelog and want to pay for their oruder they can click that and get sent to the checkout section
+- It also contains the checkout button for when a user finishes browsing the catalog and want to pay for their order they can click that and get sent to the checkout section
 
 ![Top Page](media/toppage.png)
 
@@ -126,19 +126,19 @@ This section goes over the different parts of this project. An explaination will
 
 - It also contains a link to a returns section if you feel like you have to return items.
 
-- It has a link to the home page if the user wants to sign up to the newsletter.
+- It has a link to the home page if the user wants to sign up for the newsletter.
 
-- Below the nav bar there is a message incentivising users to spend above $150 for free delivery. 
+- Below the nav bar there is a message incentivizing users to spend above $150 for free delivery. 
 
 ![Nav Bar](media/navabr.png)
 
 **Notifactions**
 
-- When user do specific things like checkout, add products to bags, submit a return application, sign up to the newsletter, leave a review or edit products a notification comes up.
+- When user do specific things like checkout, add products to bags, submit a return application, sign up to the newsletter, leave a review, or edit products a notification comes up.
 
 - This is used to give users confirmation throughout the site to not leave them questioning if they have done what they expected to do.
 
-- There are 5 types of notifications, error, info, success, item and warning.
+- There are 5 types of notifications, error, info, success, item, and warning.
 
 *Info*
 
@@ -158,9 +158,9 @@ This section goes over the different parts of this project. An explaination will
 
 *Success*
 
-- The success message is shown when a objective a user wants to do works e.g. signing up to the newsletter, checkout or submitting a review
+- The success message is shown when an objective a user wants to do works e.g. signing up for the newsletter, check out or submitting a review
 
-- It will display an "Success!" message above the text.
+- It will display a "Success!" message above the text.
 
 ![Success](media/success.png)
 
@@ -180,7 +180,7 @@ This section goes over the different parts of this project. An explaination will
 
 **Profile Page**
 
-- This page shows the users order history and allows them to change their delivery details.
+- This page shows the users' order history and allows them to change their delivery details.
 
 - This helps the user as it gives them easy access to find past orders and gives them the ability to quickly check out as their details will automatically be enter in the delivery field when they checkout.
 
@@ -190,7 +190,7 @@ This section goes over the different parts of this project. An explaination will
 
 - This page is where users with staff status can add or edit products.
 
-- The user can describe what category, name, price and rating the product has. 
+- The user can describe what category, name, price, and rating the product has. 
 
 - This is to give users with staff status a quicker and more efficent way of adding and editing products in the online store instead of going into the admin page.
 
@@ -198,7 +198,7 @@ This section goes over the different parts of this project. An explaination will
 
 **Sign Out Page**
 
-- This page allows user to remove thier accounts from any device.
+- This page allows users to remove their accounts from any device.
 
 - This helps the user as they can remove peoples ability to access their personal information if they use it on shared devices.
 
@@ -206,7 +206,7 @@ This section goes over the different parts of this project. An explaination will
 
 **Sign In Page**
 
-- This page allows user to enter into thier accounts from any device.
+- This page allows users to enter their accounts from any device.
 
 - This helps the user as they have ability to access their personal information if they use it on any device.
 
@@ -216,17 +216,17 @@ This section goes over the different parts of this project. An explaination will
 
 - This page allows the user to create an account for the website.
 
-- The creation of this account is what allows the user to save their delivery information, see past order history and create reviews.
+- The creation of this account is what allows the user to save their delivery information, see past order history, and create reviews.
 
 ![Sign Up Page](media/signuppage.png)
 
 **Products Page**
 
-- This page shows all the products avalible in the online store.
+- This page shows all the products available in the online store.
 
 - It can be specialized to show items in alphabetical order (A-Z or Z-A), price (low-to-high, or high-to-low), and ratings (low-to-high, or high-to-low).
 
-- It can only show items from a particular sport if the sport name was clicked on in the nav bar.
+- It can only show items from a particular sport if the sport name is clicked on in the nav bar.
 
 ![Product Page](media/productpagee.png)
 
@@ -235,7 +235,7 @@ This section goes over the different parts of this project. An explaination will
 The product details page had two sections:
 
 *Product Item*
-- The first thing a user see when they click on a item from the products page is a image of the item, name, rating and a description of said item.
+- The first thing a user see when they click on an item from the products page is an image of the item, name, rating, and description of said item.
 
 - If the item is shoes a form comes whith shoes sizes ranging from a uk size 9 to a uk 13.
 
@@ -245,9 +245,9 @@ The product details page had two sections:
 
 - Their button to go back to the product page or add the item into the bag.
 
-- For users with staff access to button appear beside the ratings which allows them to edit or delete the product.
+- For users with staff access to button appears beside the ratings which allows them to edit or delete the product.
 
-- Clicking edit brings them to that product management page for the item.
+- Clicking edit brings them to the product management page for the item.
 
 - Clicking delete instantly removes the item from the store.
 
@@ -255,7 +255,7 @@ The product details page had two sections:
 
 *Product Review*
 
-- Under the product item their is a review section.
+- Under the product item there is a review section.
 
 - This allows user to give their opinions on a product for other user to see.
 
@@ -265,7 +265,7 @@ The product details page had two sections:
 
 **Returns Page**
 
-- This page allows user to make a returns item request.
+- This page allows users to make a return item request.
 
 - This helps user give us a good outlook on why they want to return their order.
 
@@ -277,7 +277,7 @@ The product details page had two sections:
 
 - This page is for users to look over the products that they want to purchase.
 
-- It shows them the name, price, quantity and subtotal.
+- It shows them the name, price, quantity, and subtotal.
 
 - It also give them the ability to change the product quantity amount or remove the product from the bag.
 
@@ -299,7 +299,7 @@ The product details page had two sections:
 
 - This page is used as a success page to show that the order has gone through.
 
--  It also give users a confirmation of their order number, date, details and address that will be put into the system.
+-  It also give users a confirmation of their order number, date, details, and address that will be put into the system.
 
 - The user is also shown which email address it will be sent  to.
 
@@ -307,9 +307,9 @@ The product details page had two sections:
 
 **Error 404 Page**
 
-- This page comes up when a user enters an invalid url.
+- This page comes up when a user enters an invalid URL.
 
-- It allows them to make a quick return into the website main pages.
+- It allows them to make a quick return to the website's main pages.
 
 ![Error 404 Page](media/error404.png)
 
@@ -331,11 +331,11 @@ The product details page had two sections:
 
 ## Testing
 
-Testing can me found on the [TESTING.md](TESTING.md)
+Testing can be found on the [TESTING.md](TESTING.md)
 
 ## Technologies Used
 
-This project used a varitey of coding languages, tools, librares and frameworks to build, style and run the app.
+This project used a varitey of coding languages, tools, libraries, and frameworks to build, style, and run the app.
 
 ### Languages Used
 
@@ -359,13 +359,13 @@ This project used a varitey of coding languages, tools, librares and frameworks 
 - Django-crispy-form 1.14.0
 - Django-extension 3.2.3
 - Django-storage 1.14.4
-- Gunicor 23.0.0
+- Gunicorn 23.0.0
 - Jmespat 1.0.1
 - Oauthli 3.2.2
 - Pillo 10.4.0
 - Psycopg 2.9.9
 - PyJW 2.9.0
-- Python3-openi 3.2.0
+- Python3-openid 3.2.0
 - Pytz 2024.1
 - Requests-oauthlib 2.0.0
 - S3transfer 0.10.2
@@ -379,7 +379,7 @@ This project used a varitey of coding languages, tools, librares and frameworks 
 - W3C HTML Validator
 - W3C CSS Validator
 - JSHint
-- Font Awsome
+- Font Awesome
 - Looka
 
 ## Deployment
@@ -395,29 +395,29 @@ Three steps were used when deploying this website:
 
   1. Create an account on [Heroku](https://dashboard.heroku.com/apps).
 
-  2. In the Heroku Dashboard click create a new app.
+  2. In the Heroku Dashboard click Create a new app.
 
-  3. Type in the app name (athletes-corneru) and select region (Europe) and click create app.
+  3. Type in the app name (athletes-corneru) and select a region (Europe) and click create app.
 
-  4. Once done go to settings and click reveal config vars.
+  4. Once done go to settings and click Reveal config vars.
 
-  5. Inside config vars add the word "DATABASE_URL" to key with a value of the database url from the PostgreSQL that was given from Code Institute.
+  5. Inside config vars add the word "DATABASE_URL" to the key with a value of the database URL from the PostgreSQL that was given from Code Institute.
 
-  6. Next add the word "SECRET_KEY" to key with a value of the secret key you name (this key is then removed from the settings.py file).
+  6. Next add the word "SECRET_KEY" to the key with a value of the secret key you name (this key is then removed from the settings.py file).
 
-  7. Connect the Github to the heroku through the deploy section of the page.
+  7. Connect the Github to the Heroku through the deploy section of the page.
 
   8. Finally activate automatic deploys.
 
 **Stripe**
 
-  1. Create and account on [Stripe](https://stripe.com/ie).
+  1. Create an account on [Stripe](https://stripe.com/ie).
 
   2. In Heroku go back to settings and reveal config vars then add your Stripe public and secret key.
 
   3. Create a webhook endpoint and select all events.
 
-  4. Then add your heroku URL to the endpoint URL with the addition of /checkout/wh/ (e.g. https://xxxx.com/checkout/wh/).
+  4. Then add your Heroku URL to the endpoint URL with the addition of /checkout/wh/ (e.g. https://xxxx.com/checkout/wh/).
 
   5. Go back to Heroku and add the stripe webhook endpoint secret key to the config vars.
 
@@ -450,15 +450,15 @@ Three steps were used when deploying this website:
 
   6. Then generate policy and add policy in the bucket policy editor (adding a /* to the end of resource key).
 
-  7. Go to access control list and put public access to everyone.
+  7. Go to the access control list and give public access to everyone.
 
-  8. Go to IAM section.
+  8. Go to the IAM section.
 
-  9. Go to groups part
+  9. Go to group part
 
   10. Create a group.
 
-  11. Go to policy part.
+  11. Go to the policy part.
 
   12. Create a policy.
 
@@ -466,7 +466,7 @@ Three steps were used when deploying this website:
 
   14. Add the bucket ARN into the resource section.
 
-  15. Attach policy to group.
+  15. Attach policy to the group.
 
   16. Go to user.
 
@@ -476,7 +476,7 @@ Three steps were used when deploying this website:
 
   19. Get the user key and secret access key from a .csv file made when adding the user.
 
-  20. Install boto3 and django-storages in the workspace.
+  20. Install boto3 and Django-storages in the workspace.
 
   21. Type the following code into settings.py.
 
@@ -517,9 +517,9 @@ Three steps were used when deploying this website:
     class MediaStorage(S3Boto3Storage):
         location = settings.MEDIAFILES_LOCATION
 
-  26. Git add and push these changes to heroku.
+  26. Git add and push these changes to Heroku.
 
-  27. Go back to AWS S3 for app and create a new folder called media.
+  27. Go back to AWS S3 for the app and create a new folder called media.
 
   28. Click the media file and upload all images into it.
 
@@ -541,4 +541,4 @@ Three steps were used when deploying this website:
 
 **Icons**
 
-- The icons used throughout the app (My account button, Checkout button etc) was made using [Font Awsome](https://fontawesome.com/).
+- The icons used throughout the app (My account button, Checkout button, etc) were made using [Font Awesome](https://fontawesome.com/).
