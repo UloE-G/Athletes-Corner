@@ -10,7 +10,7 @@ Athletes Corner is a sports e-commerce created for people who are looking for sp
 
 ### First Time Visitors
 
-As a first time visitor I want to be able to:
+As a first-time visitor I want to be able to:
 
 - Easily use the site across a wide range of devices.
 
@@ -20,7 +20,7 @@ As a first time visitor I want to be able to:
 
 ### Frequent Visitors
 
-As a Frequent visitor I want to be able to:
+As a Frequent visitor, I want to be able to:
 
 - Create an account.
 
@@ -32,17 +32,17 @@ As a Frequent visitor I want to be able to:
 
 As a  site admin I want to be able to:
 
-- Add, edit or delete products or reviews from the store using site owner only front end page.
+- Add, edit or delete products or reviews from the store using site owner-only front-end page.
 
 ## Business Model
 
-- The aim for this business was to provide users with access to a range of sporting goods.
+- This business aimed to provide users with access to a range of sporting goods for Football, basketball, and Rugby.
 
-- The business model for Athletes Corner is B2C (Buisness to Customer).
+- The business model for Athletes Corner is B2C (Business to Customer).
 
--  It uses a single payment system, that is the transaction is finished after a single payment is made.
+- The business uses a single payment system.
 
-- This buisness is an online only store.
+- This business is an online-only store.
 
 ## Design
 
