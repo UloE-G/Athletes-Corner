@@ -34,6 +34,15 @@ As a  site admin I want to be able to:
 
 - Add, edit or delete products or reviews from the store using site owner only front end page.
 
+## Business Model
+
+- The aim for this business was to provide users with access to a range of sporting goods.
+
+- The business model for Athletes Corner is B2C (Buisness to Customer).
+
+-  It uses a single payment system, that is the transaction is finished after a single payment is made.
+
+- This buisness is an online only store.
 
 ## Design
 
