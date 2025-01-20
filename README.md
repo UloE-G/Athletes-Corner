@@ -36,13 +36,15 @@ As a  site admin I want to be able to:
 
 ## Business Model
 
-- This business aimed to provide users with access to a range of sporting goods for Football, basketball, and Rugby.
+- This business aimed to provide users with access to a range of sporting goods for Football, Basketball, and Rugby.
 
 - The business model for Athletes Corner is B2C (Business to Customer).
 
 - The business uses a single payment system.
 
 - This business is an online-only store.
+
+- A Facebook page was also created to give users multiple ways to see the store.
 
 ## Design
 
